@@ -23,4 +23,4 @@ The dashboard provides insights into:
 The goal of this project is to analyze HR data and provide clear insights that can support HR decision-making.
 ## Dashboard Preview
 
-![HR Analytics Dashboard](HR_Analytics_Dashboard.png)
+![HR Analytics Dashboard](HR%20Analytics%20Dashboard)
