@@ -1,26 +1,34 @@
-# HR Analytics – Power BI
+# Production & Quality Analytics
 
 ## Project Overview
-An HR Analytics dashboard built using Microsoft Power BI.
+An interactive Power BI dashboard designed to analyze production performance and quality across factories, production lines, products, and defect types.
 
-## Tools Used
+## Tools
+- SQL Server
 - Power BI
 - DAX
-- Power Query
-- Data Modeling
+- Excel / CSV
 
-## Dashboard
-The dashboard provides insights into:
-- Total Employees
-- Total Exits
-- Attrition Rate
-- Average Tenure
-- Employees by Department
-- Employees by Hire Year
-- Department-level HR insights
+## Key Analysis
+- Production performance by factory
+- Production performance by product
+- Defect analysis by defect type
+- Defect analysis by factory
+- Production trends over time
+- Interactive filtering using slicers
 
-## Objective
-The goal of this project is to analyze HR data and provide clear insights that can support HR decision-making.
-## Dashboard Preview
+## Key KPIs
+- Total Production Orders
+- Total Production
+- Total Defects
+- Defect Rate
+- Production Achievement
 
-![HR Analytics Dashboard](HR_Analytics_Dashboard.PNG)
+## Data Model
+- Factories
+- Production Lines
+- Products
+- Defect Types
+- Production Orders
+- Quality Inspections
+- Defect Details
