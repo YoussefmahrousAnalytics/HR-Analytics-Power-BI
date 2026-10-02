@@ -1,34 +1,20 @@
-# Production & Quality Analytics
+# Construction Project Analytics
 
-## Project Overview
-An interactive Power BI dashboard designed to analyze production performance and quality across factories, production lines, products, and defect types.
+## Overview
+Construction project analytics dashboard built using SQL and Power BI.
+
+## Analysis Areas
+- Project Budget and Actual Cost
+- Project Progress
+- Sales Analysis
+- Material Cost Analysis
+- Labor and Equipment Analysis
 
 ## Tools
-- SQL Server
+- SQL
 - Power BI
+- Power Query
 - DAX
-- Excel / CSV
 
-## Key Analysis
-- Production performance by factory
-- Production performance by product
-- Defect analysis by defect type
-- Defect analysis by factory
-- Production trends over time
-- Interactive filtering using slicers
-
-## Key KPIs
-- Total Production Orders
-- Total Production
-- Total Defects
-- Defect Rate
-- Production Achievement
-
-## Data Model
-- Factories
-- Production Lines
-- Products
-- Defect Types
-- Production Orders
-- Quality Inspections
-- Defect Details
+## Dashboard
+The dashboard provides insights into project costs, progress, sales, labor, and equipment usage.
