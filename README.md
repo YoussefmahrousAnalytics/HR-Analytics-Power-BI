@@ -1,21 +1,29 @@
-# Sales Customer Analytics
+# Banking Analytics
 
 ## Overview
-E-commerce order analytics dashboard built using SQL and Power BI.
+Banking analytics dashboard built using SQL and Power BI to analyze customers, accounts, transactions, and loans.
 
 ## Analysis Areas
-- Total Orders
+- Customer and Account Analysis
+- Transaction Analysis
+- Transaction Type Analysis
+- Loan Analysis
+- Loan Type Analysis
+- Branch Account Analysis
+
+## Key Metrics
 - Total Customers
-- Order Status Analysis
-- Sales Channel Analysis
-- Payment Method Analysis
-- Order Trend Analysis
+- Total Accounts
+- Total Transactions
+- Total Loans
+- Total Transaction Amount
+- Total Loan Amount
 
 ## Tools
-- SQL
+- SQL Server
 - Power BI
 - Power Query
 - DAX
 
 ## Dashboard
-The dashboard provides insights into orders, customers, order status, sales channels, payment methods, and order trends.
+The dashboard provides insights into banking customers, accounts, transactions, loans, transaction types, and branch performance.
