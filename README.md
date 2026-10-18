@@ -1,74 +1,60 @@
 
-# Gulf Oil & Gas Analytics
+# Gulf Refinery Profitability & Product Yield Analytics
 
 ## Project Overview
-An intermediate-level data analytics project focused on analyzing oil and gas operations across Gulf countries using SQL Server and Power BI.
+This project analyzes oil refinery profitability, product yield, product sales, and operating costs using SQL Server and Power BI.
 
-The project provides insights into production performance, maintenance costs, operational incidents, sales revenue, and product quality.
-
-## Business Objectives
-- Analyze production output and capacity utilization.
-- Monitor maintenance costs and equipment downtime.
-- Evaluate operational incidents and resolution time.
-- Track sales revenue across countries and products.
-- Measure product quality and defect rates.
-- Support data-driven operational and commercial decisions.
+The goal is to evaluate refinery financial performance, compare product profitability, and monitor production output through an interactive dashboard.
 
 ## Tools & Technologies
 - SQL Server
-- SQL (Data Management and Analysis)
+- SQL (Tables, Views, CTEs, Aggregate Functions)
 - Power BI
 - DAX
-- Data Modeling and Data Visualization
+- Data Visualization
 
 ## Database Structure
-The project includes the following tables:
+The database includes the following tables:
 
-- `Dim_Site`
-- `Dim_Date`
+- `Dim_Refinery`
 - `Dim_Product`
-- `Fact_Production`
-- `Fact_Maintenance`
-- `Fact_Incidents`
-- `Fact_Quality`
-- `Fact_Sales`
+- `Fact_Refining`
+- `Fact_Product_Sales`
+- `Fact_Operating_Costs`
+
+## SQL Analysis
+Four SQL views were created:
+
+- `VW_Product_Yield_Analysis`
+- `VW_Product_Sales_Analysis`
+- `VW_Refinery_Profitability`
+- `VW_Product_Gross_Profitability`
+
+These views support the analysis of production output, product sales, refinery profitability, and product-level gross profit.
 
 ## Power BI Dashboard
+The interactive dashboard includes:
 
-### 1. Executive Overview
-Provides a high-level view of production, revenue, capacity utilization, incidents, product defects, and maintenance costs.
-
-### 2. Operations & Reliability
-Focuses on maintenance costs, incident severity, resolution time, maintenance completion, and production downtime.
-
-### 3. Commercial & Quality
-Analyzes revenue by country and product, production output, total defect units, and weighted defect rates.
-
-## Key Performance Indicators (KPIs)
-- Total Production
 - Total Revenue
-- Capacity Utilization
-- Total Maintenance Cost
-- Total Incidents
-- Average Resolution Hours
-- Weighted Defect Rate
-- Production Growth
-- Production Target Achievement
-- Maintenance Completion Rate
+- Estimated Operating Profit
+- Operating Margin %
+- Total Operating Cost
+- Total Processing Cost
+- Revenue by Refinery
+- Estimated Gross Profit by Product
+- Product Output by Product
+- Refinery slicer for interactive filtering
 
 ## Key Skills Demonstrated
-- Data modeling and table relationships
-- SQL database analysis
-- DAX measure development
-- KPI design
-- Interactive dashboard development
-- Operational and commercial performance analysis
+- SQL data analysis and view creation
+- Financial and operational performance analysis
+- DAX measures
+- Power BI dashboard development
+- Interactive data visualization
 
-## Project Files
-- Power BI dashboard (`.pbix`)
-- SQL scripts (if included)
-- Dashboard screenshots
+## Important Note
+This project uses sample training data for demonstration purposes. Financial metrics are estimates based on the available sample data and should not be interpreted as actual refinery financial results.
 
-## Disclaimer
-This project is intended for educational and portfolio purposes. The dataset is used for analytical practice and should not be interpreted as verified operational data from real oil and gas companies.
+## Author
+**Youssef Mahrous**
 
